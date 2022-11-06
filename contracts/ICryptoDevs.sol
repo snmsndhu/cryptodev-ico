@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.4;
 
 interface ICryptoDevs {
     /**
@@ -14,4 +14,4 @@ interface ICryptoDevs {
     /**
      * @dev Returns the number of tokens in ``owner``'s account.
      */
-    function balanceOf(address owner) external view returns (uint256 balance);
+    function balanceOf(address owner) external view returns (uint256 balance);}
